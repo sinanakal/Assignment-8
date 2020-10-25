@@ -1,0 +1,42 @@
+package Assignment_8;
+
+public class question_12 {
+
+	public static void main(String[] args) {
+/*Question-12
+
+The danish prince most famous quote is "to be or not to be". thats a classic example of boolean logic.
+
+the hamletQuote method only returns true if one of or both of the boolean parameters is true.
+
+example:
+
+hamletQuote(true, false)
+returns true
+
+hamletQuote(false,true)
+returns true
+
+hamletQuote(true,true)
+returns true
+
+hamletQuote(false,false)
+returns false
+*/
+		
+		hamletQuote(true, true);
+		System.out.println(hamletQuote(true, true));
+
+	}
+	
+	public static boolean hamletQuote(boolean toBe,boolean notToBe)
+	  {
+	    if(toBe||notToBe){
+	      return true;
+	    }else{
+	      return false;
+	    }
+	    
+	  }
+
+}
